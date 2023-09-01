@@ -18,19 +18,19 @@ Before you begin, make sure you have the following installed:
 ### Installation
 
 1. Clone this repository to your local machine.
-```sh
+```
   git clone https://github.com/akirachix/Nova-Informational
   ```
 2. Navigate to the project directory
-```sh
+```
    cd Nova-Informational
    ```
 3. Install the necessary dependencies:
-```sh
+```
    npm install
    ```
 4. To run the TruxApp Informational Website locally, use the following command:
-```sh
+```
     npm start
     ```
 5.  Access the website by opening a web browser and navigating to `http://localhost:3000`.
