@@ -17,7 +17,7 @@ Before you begin, make sure you have the following installed:
 - NPM (Node Package Manager)
 ### Installation
 1. Clone this repository to your local machine.
-  git clone https://github.com/your-username/truxapp-informational-website.git
+  git clone https://github.com/akirachix/Nova-Informational
 2. Navigate to the project directory
    cd Nova-Informational
 3. Install the necessary dependencies:
@@ -32,7 +32,7 @@ The TruxApp Informational Website provides the following features:
 - Details about the team
 - Support section where one can contact the team for more inquiries.
 ## Contributing
-We welcome contributions to enhance the TruxApp Informational Website. If you'd like to contribute, please follow these steps:
+Contributions are open to the collaborators to enhance the TruxApp Informational Website. If you'd like to contribute, please follow these steps:
 1. Fork the repository.
 2. Create a new branch for your feature or improvement.
 3. Make changes and commit them.
