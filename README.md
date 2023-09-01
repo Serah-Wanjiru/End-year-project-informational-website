@@ -22,9 +22,9 @@ Before you begin, make sure you have the following installed:
    npm install
 ```
 4. To run the TruxApp Informational Website locally, use the following command:
-```
-    npm start
+```  npm start
     ```
+    
 5.  Access the website by opening a web browser and navigating to `http://localhost:3000`.
 
 ## Features
