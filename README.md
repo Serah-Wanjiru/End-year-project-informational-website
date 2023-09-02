@@ -23,19 +23,19 @@ Before you begin, make sure you have the following installed:
 ```
 4. To run the TruxApp Informational Website locally, use the following command:
 ```  npm start
-    ```
-    
-5.  Access the website by opening a web browser and navigating to `http://localhost:3000`.
+```
+  Access the website by opening a web browser and navigating to `http://localhost:3000`.
 
 ## Features
 
 The TruxApp Informational Website provides the following features:
-- Detailed overview of the TruxApp platform.
-- Detailed explanation of how TruxApp facilitates drivers in submitting documents in advance.
-- Details about the team
-- Support section where one can contact the team for more inquiries.
+-  Detailed overview of the TruxApp platform.
+-  Detailed explanation of how TruxApp facilitates drivers in submitting documents in advance.
+-  Details about the team
+-  Support section where one can contact the team for more inquiries.
 
 ## Contact
+
 If you have any questions or inquiries, please feel free to contact us at nova@gmail.com.
 For additional information about the TruxApp platform, please visit our official website: [https://www.truxapp.com]().
 
