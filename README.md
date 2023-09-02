@@ -16,7 +16,7 @@ Before you begin, make sure you have the following installed:
 2. Navigate to the project directory
 ```
    cd Nova-Informational
-```
+``` 
 3. Install the necessary dependencies:
 ```
    npm install
