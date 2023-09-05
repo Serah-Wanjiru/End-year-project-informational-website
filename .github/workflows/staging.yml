@@ -19,7 +19,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '18'
-      Install Packages
+
       - name: Install Packages
         run: npm install
 
@@ -28,4 +28,3 @@ jobs:
 
       - name: Run Tests
         run: npm test
-
