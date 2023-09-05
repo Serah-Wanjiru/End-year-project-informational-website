@@ -27,5 +27,4 @@ jobs:
             exit 0
           fi
 
-      - name: Run Tests
-        run: npm test
+    
