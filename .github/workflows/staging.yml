@@ -1,5 +1,4 @@
-name: React App CI/CD
-
+name: React.js CI/CD
 on:
   push:
     branches:
@@ -7,24 +6,28 @@ on:
   pull_request:
     branches:
       - staging
-
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-20.04
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '18'
+    - name: Install Dependencies
+      working-directory: nova-informational-website
+      run: npm install
+    - name: Build
+      working-directory: nova-informational-website
+      run: npm run build
+    - name: Run Tests
+      working-directory: nova-informational-website
+      run: npm test
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '18'
 
-      - name: Check for "build" script
-        run: |
-          if ! npm run -s build --if-present; then
-            echo "No 'build' script found in package.json or it failed to run."
-            exit 0
-          fi
 
-    
+
+
