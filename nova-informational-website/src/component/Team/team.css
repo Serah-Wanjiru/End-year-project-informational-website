@@ -1,0 +1,103 @@
+#row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+  
+  .team-member {
+    text-align: center;
+    margin-bottom: 20px;
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  .team-img {
+    max-width: 60%;
+    height: auto;
+  }
+  
+  .team-member h4 {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .team-member p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  #team {
+    padding: 100px 0;
+  }
+  
+  #team h2 {
+    margin: 0;
+    font-size: 32px;
+   
+  }
+  .meet{
+    color: darkgoldenrod;
+  }
+  
+  
+  /* Media Query for smaller screens (e.g., tablets) */
+  @media screen and (max-width: 768px) {
+    .team-member {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  /* Media Query for even smaller screens (e.g., mobile phones) */
+  @media screen and (max-width: 480px) {
+    .team-member {
+      width: 100%;
+    }
+  }
+  /* values.css (or your custom CSS file) */
+
+/* Add this media query for small screens */
+@media (max-width: 767px) {
+  .team-container .row {
+    align-items: center;
+   
+  }
+
+  .team-container .col-xs-12.col-md-4 {
+    margin-bottom: 30px;
+  }
+}
+
+/* team.css */
+
+/* Style the "Meet the Team" section */
+.team-container {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #f8f8f8; /* Background color for the section */
+}
+
+.team-container h2 {
+  font-size: 36px; /* Set the heading font size */
+  color: #ff8800; /* Set the heading color */
+  margin-bottom: 20px; /* Add space below the heading */
+}
+
+.team-container p {
+  font-size: 18px; /* Set the paragraph font size */
+  color: #777; /* Set the paragraph color */
+  max-width: 600px; /* Limit the paragraph width */
+  margin: 0 auto; /* Center align the paragraph */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .team-container h2 {
+    font-size: 20px; /* Reduce the heading font size for smaller screens */
+  }
+
+  .team-container p {
+    font-size: 20px;
+    max-width: 80%; /* Reduce the paragraph font size for smaller screens */
+  }
+}
