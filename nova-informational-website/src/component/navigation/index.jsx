@@ -21,7 +21,7 @@ const Navigation = () => {
           </div>
           <ul className={`nav-links ${menuOpen ? "active" : ""}`} onClick={closeMenu}>
             <li>
-              <a href="#header" className="page-scroll">
+              <a href="#header" className="nav-item">
                 Home
               </a>
             </li>
