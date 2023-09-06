@@ -1,5 +1,5 @@
 import React from "react";
-import Navigation from "../navigation/navigation";
+import Navigation from "../navigation";
 import Footer from "../Footer";
 
 
@@ -9,7 +9,7 @@ import Footer from "../Footer";
 const Layout =()=>{
     return(
         <div>
-            <Navigation/>
+            {/* <Navigation/> */}
             <Footer/>
             
             

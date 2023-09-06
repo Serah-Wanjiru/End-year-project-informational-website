@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import "./nav.css";
+import "./style.css";
+import { BsList  } from "react-icons/bs";
 const Navigation = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => {
@@ -16,9 +17,7 @@ const Navigation = () => {
             <img src="img/image/logo.png" alt="Your" />
           </div>
           <div className="menu-icon" onClick={toggleMenu}>
-            <div className="bar"></div>
-            <div className="bar"></div>
-            <div className="bar"></div>
+        <BsList  size="30" />
           </div>
           <ul className={`nav-links ${menuOpen ? "active" : ""}`} onClick={closeMenu}>
             <li>
@@ -27,27 +26,27 @@ const Navigation = () => {
               </a>
             </li>
             <li>
-              <a href="#about" className="page-scroll">
+              <a href="#about" className="nav-item">
                 About
               </a>
             </li>
             <li>
-              <a href="#features" className="page-scroll">
+              <a href="#features" className="nav-item">
                 Values
               </a>
             </li>
             <li>
-              <a href="#products" className="page-scroll">
+              <a href="#products" className="nav-item">
                 Products
               </a>
             </li>
             <li>
-              <a href="#team" className="page-scroll">
+              <a href="#team" className="nav-item">
                 Team
               </a>
             </li>
             <li>
-              <a href="#contact" className="page-scroll">
+              <a href="#contact" className="nav-item">
                 Contact
               </a>
             </li>

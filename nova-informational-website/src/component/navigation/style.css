@@ -181,125 +181,16 @@
     margin: 15px 0;
   }
 }
-.get-in-touch {
-  padding: 20px;
-  border-radius: 10px;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  max-width: 400px;
-  margin: 0 auto;
-}
-h2{
-  color:#D36D23 ;
-}
-.form-container {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.form-container .name-input,
-.form-container .email-input {
-  width: 100%;
-}
-.form-container input[type="text"],
-.form-container input[type="email"] {
-  padding: 10px;
-  border: 1px solid #D36D23;
-  border-radius: 5px;
-  font-size: 14px;
-}
-textarea {
-  padding: 10px;
-  border: 1px solid #D36D23;
-  border-radius: 5px;
-  font-size: 14px;
-  resize: vertical;
-  height: 150px;
-}
-.btn-custom {
-    background-color: transparent;
-    color: black;
-    border: 2px solid #D36D23;
-    padding: 10px 14px;
-    border-radius: 3px;
-    text-decoration: none;
-    font-family: "Raleway", sans-serif;
-    font-size: 14px;
-    width: 70px;
-}
-.btn-custom:hover {
-  background-color: #D36D23;
-}
-.contact-info {
-  padding: 20px;
-  border-radius: 10px #FD8901;
-  color: #FD8901;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-  max-width: 400px;
-  margin: 0 auto;
-}
-h3 {
-  font-size: 24px;
-  color: #FD8901;
-  margin-bottom: 10px;
-}
-p {
-  font-size: 14px;
-  line-height: 1.5;
-}
-.inputs{
-  display: flex;
-  gap: 5px;
-}
-.containers{
-  display: flex;
-  justify-content: space-evenly;
-}
+
 #footer{
   background-color: #D36D23;
   color:white;
 }
-@media (max-width: 768px) {
-  .get-in-touch,
-  .contact-info {
-    max-width: 100%;
-  }
-  .containers{
-    display: flex;
-    flex-direction: column;
-  }
-  .section-title{
-    max-width: 300px;
-  }
-  .form-container{
-    max-width: 300px;
-  }
-  .inputs{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  #footer{
-    background-color: #D36D23;
-    color:white;
-    max-width: 100%;
-  }
-  .form-container .name-input,
-.form-container .email-input {
-  width: 100%;
+#footer{
+  background-color: #D36D23;
+  color:white;
+  max-width: 100%;
 }
-.form-container input[type="text"],
-.form-container input[type="email"] {
-  padding: 10px;
-  border: 1px solid #D36D23;
-  border-radius: 5px;
-  font-size: 14px;
-  width: 280px;
-}
-}
+
+
+
