@@ -4,7 +4,9 @@ import About from './component/About';
 
 function App() {
   return (
-<About/>
+<div>
+  
+</div>
   
   );
 }
