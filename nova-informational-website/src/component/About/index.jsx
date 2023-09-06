@@ -4,15 +4,9 @@ const About = () => {
   return (
     <div id="about">
       <div className="container-about">
-        <div className="row">
-          <div className="aboutp">
-            <img
-              src="img/image/abouts.png"
-              className="img-fluid"
-              alt="About Us"
-            />
-          </div>
-          <div className="aboutp">
+        <div className="about-alignment-page">
+         
+          <div className="about-text-container">
             <div className="about-text">
               <h2>
                 Who we Are ?{" "}
@@ -20,7 +14,14 @@ const About = () => {
               <p>
               Welcome to our innovative Trux App solution designed to alleviate congestion in the Busia-Malaba area. We are committed to revolutionalizing transportation by providing efficient and streamlined logistics for truck drivers and business. Join us in shaping a smoother, more sustainable future for the regions transportation landscape.
               </p>
-              <h3>
+              <div className="about-container">
+            <img
+              src="img/image/abouts.png"
+              className="img-fluid"
+              alt="About Us"
+            />
+          </div>
+              <h3 className="goal">
                 Our<span>Goal</span>
               </h3>
               <p>
@@ -30,13 +31,10 @@ const About = () => {
           </div>
         </div>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
+
       <div className="container-about">
-        <div className="row">
-          <div className="aboutp">
+        <div className="about-alignment">
+          <div className="about-text-container">
             <div className="about-text">
               <h2>
                 Our <span>Vision</span>
@@ -46,7 +44,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="aboutp">
+          <div className="about">
             <img
               src="img/image/driver.jpeg"
               className="img-fluid"
@@ -55,20 +53,17 @@ const About = () => {
           </div>
         </div>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
+  
       <div className="container-about">
-        <div className="row">
-          <div className="aboutp">
+        <div className="about-alignment">
+          <div className="about">
             <img
               src="img/image/about.png"
               className="img-fluid"
               alt="Our Mission"
             />
           </div>
-          <div className="aboutp">
+          <div className="about-text-container">
             <div className="about-text">
               <h2>
                 Our <span>Mission</span>{" "}

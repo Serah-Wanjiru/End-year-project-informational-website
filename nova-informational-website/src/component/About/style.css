@@ -1,13 +1,14 @@
-
-
 .about-banner {
     position: relative;
     box-shadow: var(--shadow-2);
     max-width: 300px;
     margin-block-end: 60px;
+    margin-bottom: 15%;
   }
   
-  .about .abs-img-2 { display: none; }
+  .about .abs-img-2 {
+    display: none; 
+  }
   
   .about .abs-img-1 {
     position: absolute;
@@ -36,7 +37,7 @@
   
   .about-item:not(:last-child) { margin-block-end: 10px; }
   
-  .row{
+  .about-alignment{
     display: flex;
     justify-content: space-evenly;
     
@@ -50,6 +51,7 @@
 .container-about {
   padding: 40px; 
   border-radius: 8px; 
+  margin-top: 3%;
 }
 
 .about-text {
@@ -111,6 +113,7 @@ body{
   bottom: 0;
   left: 0;
 }
+
 #about .about-text li {
   margin-bottom: 6px;
   margin-left: 6px;
@@ -138,9 +141,13 @@ body{
 }
 @media screen and (max-width: 768px) {
 
-  .row{
+  .about-alignment{
     display: flex;
-    flex-direction: column; 
+    flex-direction: column-reverse; 
+  }
+  .about-alignment-page{
+    display: flex;
+    flex-direction: column-reverse; 
   }
   #about img {
     width: 300px;
