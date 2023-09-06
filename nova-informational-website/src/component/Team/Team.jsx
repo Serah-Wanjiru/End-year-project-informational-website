@@ -6,7 +6,7 @@ const Team = (props) => {
     <div className="team-container">
       <div>
         <h2 className="meet">Meet the Team</h2>
-        <p>We are a team of great engineers aimed to provide great services and experience with the app</p>
+        <p className="text">We are a team of great engineers aimed to provide great services and experience with the app</p>
       </div>
       <div id="team" className="row justify-content-center"> 
         <div className="col-xs-12 col-md-4 text-center">
