@@ -7,7 +7,6 @@
 .values-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-content: space-around;
   gap: 20px;
 }
 
@@ -17,7 +16,7 @@
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ 
   justify-content: space-around;
   margin: 10%;
 }

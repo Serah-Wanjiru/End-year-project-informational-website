@@ -15,8 +15,6 @@ const Values = () => {
           <div>
           <FaUsers />
           </div>
-         
-
           <h3>Team Work</h3>
           <p>
           We embrace collaboration, harnessing diverse talents to achieve common goals and create impact solution
@@ -25,16 +23,13 @@ const Values = () => {
         <div className="value">
           <div>
           <FaHeart />
-
           </div>
           <div>
-
           <h3>Empathy</h3>
           <p>
           We prioritize understanding and connecting with the needs and experiences of others
           </p>
           </div>
-        
         </div>
         <div className="value">
           <div>  <IoTrendingUp  /></div>
@@ -44,8 +39,6 @@ const Values = () => {
           We embrace continous learning adapting to challenges and evolving our solutions with a growth mindset we strive to create lasting positive impact
           </p>
           </div>
-        
-         
         </div>
       </div>
     </div>

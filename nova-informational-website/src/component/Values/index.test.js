@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import Values from "./";
+import Values from ".";
 
 test("renders without errors", () => {
   render(<Values />);
