@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import emailjs from "emailjs-com";
 import { FaMapMarker, FaPhone, FaEnvelope } from "react-icons/fa";
-import "./contact.css";
+import "./index.css";
 
 const initialState = {
   name: "",
@@ -40,13 +40,10 @@ const Contact = () => {
       .sendForm("service_xgihpil", "template_vurq2x9", e.target, "ahG5sqQcK4TxfqPIV")
       .then(
         (result) => {
-          console.log(result.text);
           clearState();
           setIsEmailSent(true);
         },
-        (error) => {
-          console.log(error.text);
-        }
+      
       );
   };
 
