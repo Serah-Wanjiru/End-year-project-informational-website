@@ -43,6 +43,7 @@ h2{
   border: 1px solid #D36D23;
   border-radius: 5px;
   font-size: 14px;
+  color: #D36D23;
 }
 
 textarea {
@@ -56,21 +57,22 @@ textarea {
 
 .btn-custom {
   
-    background-color: transparent;
-    color: black;
-    border: 2px solid #d36d23;
-    padding: 10px 14px;
-    border-radius: 3px;
-    text-decoration: none;
-    font-family: "Raleway", sans-serif;
-    font-size: 14px;
-    width: 70px;
+  background-color: #D36D23 ;
+  color: #fff;
+  border: 2px solid #D36D23;
+  padding: 6px 14px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  width: 100px;
   
 }
 
 .btn-custom:hover {
-  background-color: #d36d23;
+  background-color: #D36D23;
 }
+
 
 
 .contact-info {
@@ -78,9 +80,8 @@ textarea {
   padding: 20px;
   
   border-radius: 10px #FD8901;
-  color: #FD8901;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  text-align: left;
+  color: #D36D23;
+  text-align: start;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -90,7 +91,8 @@ textarea {
 
 h3 {
   font-size: 24px;
-  color: #FD8901;
+  text-align: start;
+  color: #D36D23;
   margin-bottom: 10px;
 }
 
@@ -98,6 +100,7 @@ p {
   font-size: 14px;
  
   line-height: 1.5;
+  text-align: start;
 }
 .inputs{
   display: flex;
@@ -149,3 +152,44 @@ p {
 }
 
 }
+
+
+@media (max-width: 1024px) {
+  .get-in-touch,
+  .contact-info {
+    max-width: 100%;
+  }
+
+  .containers {
+    flex-direction: column;
+  }
+
+  .section-title {
+    max-width: 100%;
+  }
+
+  .form-container {
+    max-width: 100%;
+  }
+
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .form-container .name-input,
+  .form-container .email-input {
+    width: 100%;
+  }
+
+  .form-container input[type="text"],
+  .form-container input[type="email"] {
+    padding: 10px;
+    border: 1px solid #D36D23;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 96%; 
+  }
+}
+
