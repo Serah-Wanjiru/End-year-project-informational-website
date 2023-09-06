@@ -1,4 +1,4 @@
-
+/* Default styles */
 .headers span {
   max-width: 100%;
   font-size: 80px;
@@ -29,6 +29,7 @@
   text-align: center;
   background: url(/public/img/image/hero.png) center center no-repeat;
   background-color: #e5e5e5;
+  background-size: cover;
   background-attachment: fixed;
   height: 100vh;
   margin-bottom: 50px;
@@ -71,20 +72,17 @@ header .intro-text {
   }
 
   .download-button {
-    font-size: 10px; 
-    padding: 8px 10px; 
+    font-size: 10px; /* Adjusted font size */
+    padding: 8px 10px; /* Adjusted padding */
   }
 
   .line {
-    width: 40%;
+    width: 29%;
     margin-bottom: 10px;
   }
 
   .intro {
-    background-position: center; 
-    background-attachment: fixed;
-    background-size: cover;
-   
+    background-position: center; /* Removed duplicate property */
   }
 
   .intro h1 {
