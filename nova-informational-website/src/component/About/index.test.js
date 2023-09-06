@@ -3,7 +3,7 @@ import { render, screen } from '@testing-library/react';
 import About from '.';
 
 describe('About component', () => {
-  it('renders the component without errors', () => {
+  it('renders the component', () => {
     render(<About />);
   });
 
