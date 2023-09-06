@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/akirachix/Nova-Informational/issues"
   },
-  "homepage": "https://github.com/akirachix/Nova-Informational#readme"
+  "homepage": "https://github.com/akirachix/Nova-Informational#readme",
+  "devDependencies": {
+    "jest": "^29.6.4"
+  }
 }
