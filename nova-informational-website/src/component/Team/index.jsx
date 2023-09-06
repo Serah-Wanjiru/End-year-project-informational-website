@@ -1,15 +1,14 @@
 import React from "react";
-import "./team.css";
-
-const Team = (props) => {
+import "./style.css";
+const Team = () => {
   return (
     <div className="team-container">
       <div>
         <h2 className="meet">Meet the Team</h2>
-        <p className="text">We are a team of great engineers aimed to provide great services and experience with the app</p>
+        <p>We are a team of great engineers aimed to provide great services and experience with the app</p>
       </div>
-      <div id="team" className="row justify-content-center"> 
-        <div className="col-xs-12 col-md-4 text-center">
+      <div id="team">
+        <div >
           <div className="team-member">
             <img src="img/image/bree.jpeg" alt="Bridget Mutesi" className="team-img" />
             <div>
@@ -18,16 +17,16 @@ const Team = (props) => {
             </div>
           </div>
         </div>
-        <div className="col-xs-12 col-md-4 text-center">
+        <div >
           <div className="team-member">
             <img src="img/image/sera.jpeg" alt="Sera" className="team-img" />
             <div>
               <h4>Serah Wanjiru</h4>
-              <p>Software Developer </p>
+              <p>Software Developer</p>
             </div>
           </div>
         </div>
-        <div className="col-xs-12 col-md-4 text-center">
+        <div >
           <div className="team-member">
             <img src="img/image/faith.jpeg" alt="Mwamkinga" className="team-img" />
             <div>
@@ -36,7 +35,7 @@ const Team = (props) => {
             </div>
           </div>
         </div>
-        <div className="col-xs-12 col-md-4 text-center">
+        <div>
           <div className="team-member">
             <img src="img/image/maureen.jpeg" alt="Maureen" className="team-img" />
             <div>
@@ -45,7 +44,7 @@ const Team = (props) => {
             </div>
           </div>
         </div>
-        <div className="col-xs-12 col-md-4 text-center">
+        <div >
           <div className="team-member">
             <img src="img/image/rita.jpeg" alt="Rita" className="team-img" />
             <div>
@@ -54,10 +53,8 @@ const Team = (props) => {
             </div>
           </div>
         </div>
-        
       </div>
     </div>
   );
 };
-
 export default Team;
