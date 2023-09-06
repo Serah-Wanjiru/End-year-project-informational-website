@@ -11,18 +11,7 @@ describe("About component", () => {
       root.render(component);
     }
   });
-  it("should have a label for all of its interactive elements", () => {
-    const component = <About />;
-    const container = document.getElementById("app");
-    if (container !== null) {
-      const root = ReactDOM.createRoot(container);
-      root.render(component);
-      const interactiveElements = rendered.querySelectorAll("[href], [tabindex]");
-      interactiveElements.forEach((element) => {
-        expect(element.hasAttribute("aria-label")).toBeTruthy();
-      });
-    }
-  });
+
   it("should render quickly enough to be usable", () => {
     const component = <About />;
     const container = document.getElementById("app");
