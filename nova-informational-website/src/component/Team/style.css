@@ -29,35 +29,36 @@
 
 #team {
   padding: 100px 0;
+  display: flex; /* Add this line */
+  flex-wrap: wrap; /* Add this line */
+  justify-content: center; /* Add this line */
 }
 
 #team h2 {
   margin: 0;
   font-size: 32px;
- 
 }
-.meet{
+
+.meet {
   color: darkgoldenrod;
 }
 
 .team-container {
-text-align: center;
-padding: 40px 0;
-background-color: #f8f8f8; 
-display: flex;
+  text-align: center;
+  padding: 40px 0;
+  background-color: #f8f8f8;
+  display: flex; /* Add this line */
+  flex-wrap: wrap; /* Add this line */
+  justify-content: center; /* Add this line */
 }
 
 .team-container h2 {
-font-size: 36px; 
-color: #ff8800; 
-margin-bottom: 20px; 
+  font-size: 36px;
+  color: #ff8800;
+  margin-bottom: 20px;
 }
-
-.team-container p {
-font-size: 18px; 
-color: #777; 
-max-width: 600px; 
-margin: 0 auto; 
+.team-img{
+  border-radius: 10px;
 }
 
 /* Media queries */
@@ -76,9 +77,9 @@ margin: 0 auto;
     max-width: 80%;
     border-radius: 10px;
   }
-  .team-intro{
+  
+  .team-intro {
     font-size: 10px;
-
   }
 }
 
