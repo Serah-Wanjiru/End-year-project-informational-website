@@ -5,7 +5,13 @@ const About = () => {
     <div id="about">
       <div className="container-about">
         <div className="about-alignment-page">
-         
+          <div className="about-container">
+            <img
+              src="img/image/abouts.png"
+              className="img-fluid"
+              alt="About Us"
+            />
+          </div>
           <div className="about-text-container">
             <div className="about-text">
               <h2>
@@ -14,14 +20,7 @@ const About = () => {
               <p>
               Welcome to our innovative Trux App solution designed to alleviate congestion in the Busia-Malaba area. We are committed to revolutionalizing transportation by providing efficient and streamlined logistics for truck drivers and business. Join us in shaping a smoother, more sustainable future for the regions transportation landscape.
               </p>
-              <div className="about-container">
-            <img
-              src="img/image/abouts.png"
-              className="img-fluid"
-              alt="About Us"
-            />
-          </div>
-              <h3 className="goal">
+              <h3>
                 Our<span>Goal</span>
               </h3>
               <p>
