@@ -35,7 +35,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const { name, email, message } = formData;
+    
     emailjs
       .sendForm("service_xgihpil", "template_vurq2x9", e.target, "ahG5sqQcK4TxfqPIV")
       .then(
