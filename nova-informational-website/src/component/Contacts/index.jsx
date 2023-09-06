@@ -27,7 +27,7 @@ const Contact = () => {
     if (isEmailSent) {
       const timeout = setTimeout(() => {
         setIsEmailSent(false);
-      }, 3000); 
+      }, 3000);
 
       return () => clearTimeout(timeout);
     }
@@ -35,7 +35,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
+
     emailjs
       .sendForm("service_xgihpil", "template_vurq2x9", e.target, "ahG5sqQcK4TxfqPIV")
       .then(
@@ -64,28 +64,28 @@ const Contact = () => {
           <form name="sentMessage" validate onSubmit={handleSubmit}>
             <div className="form-container">
               <div className="inputs">
-              <div className="name-input">
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="Name"
-                  required
-                  value={formData.name}
-                  onChange={handleChange}
-                />
-              </div>
-              <div className="email-input">
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="Email"
-                  required
-                  value={formData.email}
-                  onChange={handleChange}
-                />
-              </div>
+                <div className="name-input">
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Name"
+                    required
+                    value={formData.name}
+                    onChange={handleChange}
+                  />
+                </div>
+                <div className="email-input">
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                    value={formData.email}
+                    onChange={handleChange}
+                  />
+                </div>
               </div>
               <textarea
                 name="message"
@@ -97,7 +97,7 @@ const Contact = () => {
                 onChange={handleChange}
               ></textarea>
               <button type="submit" className="btn-custom">
-                Send 
+                Send
               </button>
             </div>
             {isEmailSent && (
@@ -131,7 +131,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      
+
     </div>
   );
 };
