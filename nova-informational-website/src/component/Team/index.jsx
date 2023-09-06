@@ -1,60 +1,63 @@
 import React from "react";
 import "./style.css";
+
+const teamMembers = [
+  {
+    name: "Bridget Mutesi",
+    role: "Software Developer",
+    imageSrc: "img/image/bridget.jpeg",
+  },
+  {
+    name: "Serah Wanjiru",
+    role: "Software Developer",
+    imageSrc: "img/image/sera.jpeg",
+  },
+  {
+    name: "Faith Mwamkinga",
+    role: "Software Developer",
+    imageSrc: "img/image/faith.jpeg",
+  },
+  {
+    name: "Maureen Ougo",
+    role: "Software Developer",
+    imageSrc: "img/image/maureen.jpeg",
+  },
+  {
+    name: "Rita Khaseyi",
+    role: "Software Developer",
+    imageSrc: "img/image/rita.jpeg",
+  },
+];
+
+const TeamMember = ({ name, role, imageSrc }) => (
+  <div className="team-member">
+    <img src={imageSrc} alt={name} className="team-img" />
+    <div>
+      <h4>{name}</h4>
+      <p>{role}</p>
+    </div>
+  </div>
+);
+
 const Team = () => {
   return (
     <div className="team-container">
       <div>
         <h2 className="meet">Meet the Team</h2>
-        <p>We are a team of great engineers aimed to provide great services and experience with the app</p>
+        <p className="team-intro">
+          We are a team of great engineers aimed to provide great services and
+          experience with the app
+        </p>
       </div>
       <div id="team">
-        <div >
-          <div className="team-member">
-            <img src="img/image/bree.jpeg" alt="Bridget Mutesi" className="team-img" />
-            <div>
-              <h4>Bridget Mutesi</h4>
-              <p>Software Developer || UI/UX Designer</p>
-            </div>
+        {teamMembers.map((member, index) => (
+          <div key={index}>
+            <TeamMember {...member} />
           </div>
-        </div>
-        <div >
-          <div className="team-member">
-            <img src="img/image/sera.jpeg" alt="Sera" className="team-img" />
-            <div>
-              <h4>Serah Wanjiru</h4>
-              <p>Software Developer</p>
-            </div>
-          </div>
-        </div>
-        <div >
-          <div className="team-member">
-            <img src="img/image/faith.jpeg" alt="Mwamkinga" className="team-img" />
-            <div>
-              <h4>Faith Mwamkinga</h4>
-              <p>Software Developer || Product Manager</p>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div className="team-member">
-            <img src="img/image/maureen.jpeg" alt="Maureen" className="team-img" />
-            <div>
-              <h4>Maureen Ougo</h4>
-              <p>Software Developer </p>
-            </div>
-          </div>
-        </div>
-        <div >
-          <div className="team-member">
-            <img src="img/image/rita.jpeg" alt="Rita" className="team-img" />
-            <div>
-              <h4>Rita Khaseyi</h4>
-              <p>Software Developer</p>
-            </div>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );
 };
+
 export default Team;
