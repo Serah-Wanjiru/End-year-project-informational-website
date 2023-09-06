@@ -27,7 +27,7 @@ const Contact = () => {
     if (isEmailSent) {
       const timeout = setTimeout(() => {
         setIsEmailSent(false);
-      }, 3000); // 3 seconds
+      }, 3000); 
 
       return () => clearTimeout(timeout);
     }

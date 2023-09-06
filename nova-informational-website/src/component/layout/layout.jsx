@@ -6,7 +6,7 @@ import About from '../about/about';
 import Products from "../products/products";
 import Values from "../Values/features"
 import Team from "../Team/Team";
-import Contact from "../Contacts/contact";
+import Contact from "../Contacts";
 
 
 
