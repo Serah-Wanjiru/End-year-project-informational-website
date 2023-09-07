@@ -27,12 +27,14 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: url(/public/img/image/hero.png) center center no-repeat;
+  background: url(/public/img/image/image.jpg) center center no-repeat;
   background-color: #e5e5e5;
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
   margin-bottom: 50px;
+
+ 
 }
 
 .intro h1 {
@@ -72,8 +74,8 @@ header .intro-text {
   }
 
   .download-button {
-    font-size: 10px; /* Adjusted font size */
-    padding: 8px 10px; /* Adjusted padding */
+    font-size: 10px; 
+    padding: 8px 10px; 
   }
 
   .line {
@@ -82,16 +84,16 @@ header .intro-text {
   }
 
   .intro {
-    background-position: center; /* Removed duplicate property */
+    background-position: center; 
   }
 
   .intro h1 {
-    font-size: 60px; /* Adjusted font size */
+    font-size: 60px; 
   }
 
   .intro p {
-    font-size: 16px; /* Adjusted font size */
-    margin-bottom: 10px; /* Adjusted margin */
-    line-height: 24px; /* Adjusted line height */
+    font-size: 16px; 
+    margin-bottom: 10px; 
+    line-height: 24px;
   }
 }

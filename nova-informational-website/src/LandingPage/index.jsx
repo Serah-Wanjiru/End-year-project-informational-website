@@ -5,7 +5,8 @@ const Header = () => {
   return (
     <header id="header">
       <div className="intro">
-        <div className="overlay">
+      <div className="container">
+      <div className="overlay">
           <div className="container">
             <div className="row">
               <div >
@@ -24,6 +25,8 @@ const Header = () => {
             </div>
           </div>
         </div>
+
+      </div>
       </div>
     </header>
   );
