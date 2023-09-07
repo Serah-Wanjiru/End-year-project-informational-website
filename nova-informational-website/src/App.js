@@ -7,7 +7,7 @@ import Team from './component/Team';
 
 function App() {
   return (
-    <div>
+    <div className='testing'>
       <Values/>
       <Products/>
       <Team/>
