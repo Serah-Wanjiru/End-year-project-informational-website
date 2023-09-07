@@ -47,9 +47,9 @@
   text-align: center;
   padding: 40px 0;
   background-color: #f8f8f8;
-  display: flex; /* Add this line */
-  flex-wrap: wrap; /* Add this line */
-  justify-content: center; /* Add this line */
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
 }
 
 .team-container h2 {
