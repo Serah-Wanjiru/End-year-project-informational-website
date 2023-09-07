@@ -5,25 +5,35 @@
 }
 
 .values-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  display: flex;
+  justify-content: center;
+  margin-left: 4%;
 }
 
 .value {
   text-align: center;
   padding: 20px;
   background-color: #fff;
-  border: 1px solid #ddd;
+  /* border: 1px solid #ddd; */
   border-radius: 5px;
- 
-  justify-content: space-around;
-  margin: 10%;
+ justify-content: space-between;
+  margin-left: 8%;
+}
+.growth{
+  padding:20px ;
+  /* margin-right: 49%; */
+  margin-bottom: 50%;
+
+  
 }
 
 .value svg {
   color: #ff8800;
   font-size: 48px;
+  margin-right: 4%;
+}
+.value-sg{
+  margin-right: 20%;
 }
 
 .value h3 {

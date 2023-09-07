@@ -1,17 +1,14 @@
 .products {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-items: center;
-  /* padding: 100px 0; */
   gap: 10px;
-  /* margin-top: -5%; */
-  margin-left: 3.2%;
+  margin-left: 15%;
 }
-
-/* .product-text {
-  margin-bottom: 40%;
-} */
+.product-text{
+  margin-bottom:90% ;
+}
 
 .product-text h2 {
   text-transform: uppercase;
@@ -46,6 +43,8 @@
   background: #fff;
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+  margin-left: 25%;
+  margin-top: -60%;
 }
 
 .products p {

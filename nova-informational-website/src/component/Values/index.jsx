@@ -10,7 +10,7 @@ const Values = () => {
       <div className="section-title">
         <h2 className="values">Our Values</h2>
       </div>
-      <div className="containers values-grid">
+      <div className="values-grid">
         <div className="value">
           <div>
           <FaUsers />
@@ -32,10 +32,10 @@ const Values = () => {
           </div>
         </div>
         <div className="value">
-          <div>  <IoTrendingUp  /></div>
-          <div>
-          <h3>Growth</h3>
-          <p>
+          <div className="value-sg">  <IoTrendingUp  /></div>
+          <div className="growth">
+          <h3 >Growth</h3>
+          <p className="growth-p">
           We embrace continous learning adapting to challenges and evolving our solutions with a growth mindset we strive to create lasting positive impact
           </p>
           </div>
