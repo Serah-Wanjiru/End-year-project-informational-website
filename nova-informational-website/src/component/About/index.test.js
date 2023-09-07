@@ -7,6 +7,7 @@ describe('About component', () => {
     render(<About />);
   });
 
+
     it('displays images', () => {
     render(<About />);
     const images = screen.getAllByRole('img');

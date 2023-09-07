@@ -21,9 +21,9 @@ const About = () => {
               <p>
                 Welcome to our innovative Trux App solution designed to alleviate congestion in the Busia-Malaba area. We are committed to revolutionizing transportation by providing efficient and streamlined logistics for truck drivers and business. Join us in shaping a smoother, more sustainable future for the region’s transportation landscape.
               </p>
-              <h3>
-                Our <span>Goal</span>
-              </h3>
+              <h2>
+                OUR <span>GOAL</span>
+              </h2>
               <p>
                 Welcome to our innovative Trux App solution designed to alleviate congestion in the Busia-Malaba area. We are committed to revolutionizing transportation by providing efficient and streamlined logistics for truck drivers and business.
               </p>
