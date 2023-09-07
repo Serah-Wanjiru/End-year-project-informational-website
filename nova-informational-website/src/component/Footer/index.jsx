@@ -6,10 +6,9 @@ const Footer = () => {
             <div id="footer">
                 <div className="footer-content">
                     <p>
-                        &copy; 2023 Copyright @Nova Truxapp website{" "}
-                        <a href="/" rel="nofollow">
-                            Nova
-                        </a>
+                        &copy; 2023 Copyright @Nova Truxapp 
+                      
+                    
                     </p>
                 </div>
             </div>

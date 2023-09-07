@@ -18,12 +18,12 @@ const Navigation = () => {
           </div>
           <div className="menu-icon" onClick={toggleMenu}>
             {menuOpen ? (
-              <BsX size="30" color="black" />
+              <BsX size="30" color="white" />
             ) : (
               <BsList size="30" />
             )}
           </div>
-          <ul className={`nav-links ${menuOpen ? "active" : ""}`} onClick={closeMenu}>
+          <ul id="close-menu"className={`nav-links ${menuOpen ? "active" : ""}`} onClick={closeMenu}>
             <li>
               <a href="#header" className="nav-item">
                 Home
