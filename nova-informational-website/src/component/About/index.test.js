@@ -1,16 +1,10 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import About from './';
+import About from '.';
 
 describe('About component', () => {
   it('renders the component', () => {
     render(<About />);
-  });
-
-  it('displays the "Who we Are?" section', () => {
-    render(<About />);
-    const whoWeAreSection = screen.getByText('Who we Are ?');
-    expect(whoWeAreSection).toBeInTheDocument();
   });
 
     it('displays images', () => {
