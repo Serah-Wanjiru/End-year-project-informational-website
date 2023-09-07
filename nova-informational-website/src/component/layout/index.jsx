@@ -10,10 +10,10 @@ const Layout =()=>{
     return(
         <div>
             <Navigation/>
-            <Footer/>
+            {/* <Footer/> */}
             
             
         </div>
     )
 }
-export default Layout;
+export default Layout;   <Footer/>

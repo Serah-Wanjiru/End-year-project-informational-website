@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './style.css'
-import { BsList  } from "react-icons/bs";
+import { BsList , BsX  } from "react-icons/bs";
 const Navigation = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => {
@@ -17,7 +17,11 @@ const Navigation = () => {
             <img src="img/image/logo.png" alt="Your" />
           </div>
           <div className="menu-icon" onClick={toggleMenu}>
-        <BsList  size="30" />
+            {menuOpen ? (
+              <BsX size="30" color="black" />
+            ) : (
+              <BsList size="30" />
+            )}
           </div>
           <ul className={`nav-links ${menuOpen ? "active" : ""}`} onClick={closeMenu}>
             <li>
