@@ -10,6 +10,7 @@
   transition: background-color 0.3s ease;
   background-color: rgba(0, 0, 0, 0.8);
   padding-top: 25px;
+  
 
 }
 .menu-container{
@@ -41,15 +42,20 @@
   height: auto;
   position: relative;
   top: -5px;
+  padding-right: 200px;
  
 }
-
+.image-container{
+  padding-right: 18%;
+}
 .nav-links {
   display: flex;
   gap: 50px;
   list-style: none;
   margin: 0;
   padding: 0;
+  padding-left: 80px;
+  
 }
 
 .nav-links a {
@@ -142,6 +148,7 @@
     max-width: 50%;
     height: auto;
     display: block; 
+    padding-right: 30%;
   }
 }
 
