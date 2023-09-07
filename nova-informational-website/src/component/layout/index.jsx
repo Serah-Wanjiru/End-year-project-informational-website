@@ -10,7 +10,7 @@ const Layout =()=>{
     return(
         <div>
             <Navigation/>
-            {/* <Footer/> */}
+            <Footer/>
             
             
         </div>
