@@ -47,7 +47,7 @@ const About = () => {
           <div>
             <img
               src="img/image/driver.jpeg"
-              className="img-fluid"
+              className="vision"
               alt="Our Vision"
             />
           </div>
@@ -59,7 +59,7 @@ const About = () => {
           <div>
             <img
               src="img/image/about.png"
-              className="img-fluid"
+              className="img-fluids"
               alt="Our Mission"
             />
           </div>
