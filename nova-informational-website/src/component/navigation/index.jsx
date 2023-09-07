@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./style.css";
+import './style.css'
 import { BsList  } from "react-icons/bs";
 const Navigation = () => {
   const [menuOpen, setMenuOpen] = useState(false);
