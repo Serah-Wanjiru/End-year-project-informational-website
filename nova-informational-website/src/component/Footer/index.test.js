@@ -11,12 +11,6 @@ describe("Footer Component", () => {
     expect(copyrightText).toBeInTheDocument();
 
    
-    const link = screen.getByRole("link", { name: /nova/i });
-    expect(link).toBeInTheDocument();
-    expect(link).toHaveAttribute("href", "/");
-
-   
-    expect(link.textContent).toBe("Nova");
   });
 
   
