@@ -52,7 +52,7 @@ const Contact = () => {
       <div className="containers">
         <div className="get-in-touch">
           <div className="section-title">
-            <h2>Get In Touch</h2>
+          <h3>GET IN  TOUCH</h3>
             <p>
               Please fill out the form below to send us an email, and we will
               get back to you as soon as possible.
@@ -103,7 +103,7 @@ const Contact = () => {
           </form>
         </div>
         <div className="contact-info">
-          <h3>Contact Info</h3>
+          <h3>CONTACT INFO</h3>
           <div className="contact-info-content">
             <p>
               <span>

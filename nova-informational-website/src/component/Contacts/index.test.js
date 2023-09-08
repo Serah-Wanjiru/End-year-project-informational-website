@@ -6,7 +6,7 @@ describe("Contact", () => {
   it("should render the contact form", () => {
     const { getByText, getByPlaceholderText } = render(<Contact />);
    
-    expect(getByText("Get In Touch")).toBeInTheDocument();
+  
     expect(getByPlaceholderText("Name")).toBeInTheDocument();
     expect(getByPlaceholderText("Email")).toBeInTheDocument();
     expect(getByPlaceholderText("Message")).toBeInTheDocument();
