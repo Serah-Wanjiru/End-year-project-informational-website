@@ -4,6 +4,7 @@ import Values from './component/Values'
 import Products from './component/Products'
 import Team from './component/Team';
 import About from './component/About';
+import Contact from './component/Contacts';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Values/>
       <Products/>
       <Team/>
+      <Contact/>
       
 
     </div>
