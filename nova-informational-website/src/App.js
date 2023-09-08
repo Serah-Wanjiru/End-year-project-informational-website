@@ -1,10 +1,17 @@
 import React from 'react';
 import './App.css';
 import Layout from './component/layout';
-
 function App() {
   return (
-    <Layout />
+    <div className='testing'>
+      <Layout/>
+      
+
+
+    </div>
+  
+  
+
   );
 }
 
