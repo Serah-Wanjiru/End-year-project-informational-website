@@ -14,18 +14,19 @@
   text-align: center;
   padding: 20px;
   background-color: #fff;
-  /* border: 1px solid #ddd; */
+  border: 1px solid #ddd;
   border-radius: 5px;
  justify-content: space-between;
   margin-left: 8%;
+  width: 20%;
 }
-.growth{
+/* .growth{
   padding:20px ;
-  /* margin-right: 49%; */
+  margin-right: 49%;
   margin-bottom: 50%;
 
   
-}
+} */
 
 .value svg {
   color: #ff8800;
@@ -46,15 +47,21 @@
   font-size: 16px;
   color: #777;
 }
+.values-container{
+  margin-top: -5%;
+  margin-right: 10%;
+}
 
 
 @media (max-width: 767px) {
   .values-grid {
+    display: grid;
     grid-template-columns: 1fr;
   }
 
   .value {
     padding: 30px;
     margin: 10%;
+    /* display: grid; */
   }
 }

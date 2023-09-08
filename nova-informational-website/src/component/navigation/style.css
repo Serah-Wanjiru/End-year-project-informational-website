@@ -98,7 +98,6 @@
   width: 100%;
   height: 100%;
   display: flex;
-  /* justify-content: space-between; */
   background-color:black;
   opacity: calc(80%);
   padding-right: 40%;
@@ -148,16 +147,17 @@
   }
 }
 
-/* Footer Styles */
+
 #footer {
   background-color: #D36D23;
   color: white;
   padding: 20px 0;
-  margin-top: 47%;
+
   text-align: center;
-  position: fixed;
+
   bottom: 0;
   width: 100%;
+
 }
 
 .container {

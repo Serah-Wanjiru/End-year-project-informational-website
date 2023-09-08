@@ -4,7 +4,7 @@ import "./style.css";
 const Products = () => {
   return ( 
    <div className="products">
-          <div>
+          <div className="text">
             <div className="product-text">
               <h2>
                 Our Products
