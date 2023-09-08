@@ -6,7 +6,7 @@ import Values from "../Values";
 import Products from "../Products";
 import Team from "../Team";
 import Contact from "../Contacts";
-import Header from "../../LandingPage";
+import Header from "../LandingPage";
 const Layout =()=>{
     return(
         <div>
