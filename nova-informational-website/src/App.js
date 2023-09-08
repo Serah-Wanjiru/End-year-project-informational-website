@@ -1,14 +1,15 @@
-
-import Header from "./LandingPage";
+import React from 'react';
+import './App.css';
 function App() {
   return (
     <div className='testing'>
       
-    <Header/>
+
 
     </div>
   
   
+
   );
 }
 
