@@ -5,7 +5,7 @@ const Footer = () => {
         <footer>
             <div id="footer">
                 <div className="footer-content">
-                    <p>
+                    <p className="word">
                         &copy; 2023 Copyright @Nova Truxapp 
                       
                     

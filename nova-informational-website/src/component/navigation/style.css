@@ -188,11 +188,15 @@
   font-weight: bold;
   position: relative;
   transition: color 0.3s ease;
+  
 
 }
 
 .footer-nav-links a:hover {
   color: #FF6600;
+}
+.word{
+  text-align: center;
 }
 
 .footer-nav-links a:hover::after {
@@ -202,6 +206,9 @@
   height: 2px;
   background: linear-gradient(to right, #FF8800 0%, #FD8901 100%);
   margin-top: 5px;
+}
+.footer-content{
+  text-align: center;
 }
 
 @media (max-width: 768px) {
