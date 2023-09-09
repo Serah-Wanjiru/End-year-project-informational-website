@@ -14,7 +14,7 @@ const Header = () => {
                   <span className="welcome">WELCOME TO TRUX</span>
                 </h1>
                 <hr className="line" />
-                <p> Making your journey smooth and fast </p>
+                <p className="fast"> Making your journey smooth and fast </p>
                 <a
                   href="#download"
                   className=" download-button"
