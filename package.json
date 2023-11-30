@@ -1,0 +1,19 @@
+{
+  "name": "informationalweb-endyearproject",
+  "version": "1.0.0",
+  "description": "informational website for end year project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Serah-Wanjiru/InformationalWeb-EndyearProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Serah-Wanjiru/InformationalWeb-EndyearProject/issues"
+  },
+  "homepage": "https://github.com/Serah-Wanjiru/InformationalWeb-EndyearProject#readme"
+}
